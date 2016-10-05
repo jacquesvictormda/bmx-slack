@@ -14,6 +14,7 @@ namespace BuildMasterExtension.Tests
     [TestClass()]
     public class SlackNotifyOperationTests
     {
+        // Change this to run a test that will post to a real account
         const string WehookURL = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX";
         [TestMethod()]
         public async Task ExecuteAsyncTest()
