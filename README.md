@@ -6,7 +6,7 @@ BuildMaster extension providing a Slack notifier operation
 The operation takes 3 arguments:
 
 1. WebhookURL - this is the URL slack provides once you've configured a Webhook.
-2. Message - The message to post.  i.e. "Package ${PackageNumber} deployed to ${ApplicationName} ${EnvironmentName} for release ${ReleaseNumber}"
+2. Message - The message to post.  i.e. "${ApplicationName}: Release ${ReleaseNumber} build ${PackageNumber} deployed to ${EnvironmentName}"
 3. Channel - The channel to post message in.
 
 
